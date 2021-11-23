@@ -1,22 +1,22 @@
 {
   "files": {
-    "main.css": "/munchin/static/css/main.bcc317eb.chunk.css",
-    "main.js": "/munchin/static/js/main.6c223d26.chunk.js",
-    "main.js.map": "/munchin/static/js/main.6c223d26.chunk.js.map",
+    "main.css": "/munchin/static/css/main.5289b6a7.chunk.css",
+    "main.js": "/munchin/static/js/main.ac5c30e9.chunk.js",
+    "main.js.map": "/munchin/static/js/main.ac5c30e9.chunk.js.map",
     "runtime-main.js": "/munchin/static/js/runtime-main.806b3b83.js",
     "runtime-main.js.map": "/munchin/static/js/runtime-main.806b3b83.js.map",
-    "static/js/2.0f563841.chunk.js": "/munchin/static/js/2.0f563841.chunk.js",
-    "static/js/2.0f563841.chunk.js.map": "/munchin/static/js/2.0f563841.chunk.js.map",
+    "static/js/2.dcf705f1.chunk.js": "/munchin/static/js/2.dcf705f1.chunk.js",
+    "static/js/2.dcf705f1.chunk.js.map": "/munchin/static/js/2.dcf705f1.chunk.js.map",
     "index.html": "/munchin/index.html",
-    "static/css/main.bcc317eb.chunk.css.map": "/munchin/static/css/main.bcc317eb.chunk.css.map",
-    "static/js/2.0f563841.chunk.js.LICENSE.txt": "/munchin/static/js/2.0f563841.chunk.js.LICENSE.txt",
+    "static/css/main.5289b6a7.chunk.css.map": "/munchin/static/css/main.5289b6a7.chunk.css.map",
+    "static/js/2.dcf705f1.chunk.js.LICENSE.txt": "/munchin/static/js/2.dcf705f1.chunk.js.LICENSE.txt",
     "static/media/Login.module.css": "/munchin/static/media/back.f46881be.jpg",
     "static/media/meals.2971f633.jpg": "/munchin/static/media/meals.2971f633.jpg"
   },
   "entrypoints": [
     "static/js/runtime-main.806b3b83.js",
-    "static/js/2.0f563841.chunk.js",
-    "static/css/main.bcc317eb.chunk.css",
-    "static/js/main.6c223d26.chunk.js"
+    "static/js/2.dcf705f1.chunk.js",
+    "static/css/main.5289b6a7.chunk.css",
+    "static/js/main.ac5c30e9.chunk.js"
   ]
 }
