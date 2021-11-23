@@ -2,6 +2,7 @@ import React, {useState, useEffect} from "react";
 import MainPage from "./MainPage";
 import Login from "./Components/Login/Login";
 import MainHeader from "./Components/MainHeader/MainHeader";
+import classes from './App.module.css'
 function App() {
   const [isLoggedIn, setIsLoggedIn] = useState(false);
 
@@ -28,8 +29,14 @@ function App() {
   return (
     <React.Fragment>
       <main>
-        {!isLoggedIn && <div><MainHeader isAuthenticated={isLoggedIn} onLogout={logoutHandler} />
-        <Login onLogin={loginHandler} /></div>}
+        {!isLoggedIn && 
+          <div className={classes.loginpage}>
+            <div className={classes.loginwrapper}>
+              <MainHeader isAuthenticated={isLoggedIn} onLogout={logoutHandler} />
+              <Login onLogin={loginHandler} />
+            </div>
+          </div>
+        }
         {isLoggedIn && <MainPage onLogout={logoutHandler}/>}
       </main>
     </React.Fragment>

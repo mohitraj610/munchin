@@ -3,7 +3,7 @@ import React, { useState } from 'react';
 import Card from '../UI/Card/Card';
 import classes from './Login.module.css';
 import Button from '../UI/Button/Button';
-import back from '../../assets/back.jpg';
+//import back from '../../assets/back.jpg';
 
 const Login = (props) => {
   const [enteredEmail, setEnteredEmail] = useState('');
@@ -42,10 +42,7 @@ const Login = (props) => {
   };
 
   return (
-    <div>
-      <div className={classes['main-image']}>
-    <img src={back} />
-    </div>
+     <div className={classes.cardwrapper}>
     <Card className={classes.login}>
       <form onSubmit={submitHandler}>
         <div
