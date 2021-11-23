@@ -58,3 +58,17 @@
     color: #666666;
     cursor: not-allowed;
   }
+  @media screen and (max-width: 600px) {
+    .header {
+      padding: 0 1%;
+    }
+
+    .logo {
+      font-size: 3vw;
+    }
+
+    .button {
+      padding: 1vw 2.3vw;
+      border-radius: 15px;
+    }
+  }
